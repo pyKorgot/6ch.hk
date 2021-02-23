@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from board import forms
 
-# Create your views here.
+
+def index(request):
+    return render(request, 'thread.html', {'form': forms.MessageForms})
