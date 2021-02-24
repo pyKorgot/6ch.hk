@@ -1,4 +1,3 @@
 venv/
-board/__pycache__/
-board/migrations/__pycache__/
-sixchhk/__pycache__/
+__pycache__/
+.vscode/

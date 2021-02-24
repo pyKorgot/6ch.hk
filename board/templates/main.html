@@ -1,0 +1,9 @@
+{% extends "basic.html" %}
+
+{% block title %}6ch.hk{% endblock title %}
+{% block header %}<h1>6ch.hk Categories</h1>{% endblock header%}
+{% block content %}
+    {% for categor in categors %}
+        <p>{{ categor.name }}</p>
+    {% endfor %}
+{% endblock content %}
