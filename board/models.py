@@ -11,7 +11,7 @@ class Categorys(models.Model):
         ordering = ['category']
 
     def __str__(self):
-        return self.categorys
+        return self.category
 
 
 class Threads(models.Model):
@@ -40,4 +40,4 @@ class Messages(models.Model):
         ordering = ['thread', 'published']
 
     def __str__(self):
-        return self.messages
+        return self.message

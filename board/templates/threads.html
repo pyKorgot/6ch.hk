@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ name }}{% endblock title %}
+{% block content %}
+    <div>
+        {% for thread in threads %}
+        <div>
+            <h3>{{ thread.name }}</h3>
+            <p>{{ thread.first_message }}</p>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock content %}

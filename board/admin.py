@@ -1,5 +1,6 @@
 from django.contrib import admin
-from board.models import Threads, Categorys, Messages
+
+from board.models import Categorys, Messages, Threads
 
 
 class CategorysAdmin(admin.ModelAdmin):
